@@ -1,0 +1,14 @@
+FROM node:8.4-alpine
+
+WORKDIR /usr/app
+
+COPY . client
+
+WORKDIR client
+
+#Install npm packages
+RUN npm install
+
+EXPOSE 3000/tcp
+
+CMD ["npm", "start"]

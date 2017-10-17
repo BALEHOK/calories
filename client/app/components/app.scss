@@ -1,0 +1,21 @@
+@import '../theme';
+
+body {
+  border: none;
+  font-family: Roboto, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  position: fixed !important;
+}
+.container {
+  margin: 0 15px;
+  padding-top: 64px;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+}

@@ -1,0 +1,23 @@
+@import '../theme';
+
+.meals-filter {
+  &>div {
+    margin-right: 30px;
+  }
+
+  &_date-from>div, &_date-to>div {
+    width: 200px !important;
+  }
+
+  &_time-from, &_time-to {
+    width: 100px !important;
+  }
+
+  &_clear {
+    padding-top: 24px;
+
+    .material-icons {
+      color: $disabledColor !important;
+    }
+  }
+}

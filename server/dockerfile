@@ -1,0 +1,14 @@
+FROM node:8.4-alpine
+
+WORKDIR /usr/app
+
+COPY . server
+
+WORKDIR server
+
+#Install npm packages
+RUN npm install -g nodemon && npm install
+
+EXPOSE 3100/tcp
+
+CMD ["npm", "start"]

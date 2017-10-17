@@ -1,0 +1,15 @@
+@import '../theme';
+
+.user-management{
+  &_add-user {
+    margin-top: 40px;
+  }
+
+  &_delete-user .material-icons {
+    color: $accent1Color !important;
+  }
+}
+
+.user-edit-dialog_edit-field {
+  width: 256px;
+}

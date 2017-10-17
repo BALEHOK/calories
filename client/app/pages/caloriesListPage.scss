@@ -1,0 +1,15 @@
+@import '../theme';
+
+.meal-management{
+  &_add-meal {
+    margin-top: 40px;
+  }
+
+  &_delete-meal .material-icons {
+    color: $accent1Color !important;
+  }
+}
+
+.meal-edit-dialog_edit-field {
+  width: 256px;
+}

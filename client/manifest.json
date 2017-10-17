@@ -1,0 +1,16 @@
+{
+  "short_name": "Calories",
+  "name": "Calories tracker",
+  "icons": [
+    {
+      "src": "favicon.ico",
+      "sizes": "256X256",
+      "type": "image/png",
+      "density": 1.0
+    }
+  ],
+  "start_url": "index",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#FFFFFF"
+}
